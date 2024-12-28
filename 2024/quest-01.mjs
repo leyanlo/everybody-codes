@@ -1,11 +1,8 @@
-var input = `ABBAC`;
-var part = 1;
+import { readFileSync } from 'node:fs';
 
-var input = `AxBCDDCAxD`;
-var part = 2;
-
-var input = `xBxAAABCDxCC`;
-var part = 3;
+const input1 = readFileSync('./quest-01-input1.txt', 'utf8').trimEnd();
+const input2 = readFileSync('./quest-01-input2.txt', 'utf8').trimEnd();
+const input3 = readFileSync('./quest-01-input3.txt', 'utf8').trimEnd();
 
 const N_POTIONS = {
   A: 0,
@@ -26,4 +23,6 @@ function solve(input, part) {
   }
   console.log(sum);
 }
-solve(input, part);
+solve(input1, 1);
+solve(input2, 2);
+solve(input3, 3);
