@@ -1,0 +1,19 @@
+{
+  "name": "everybody-codes",
+  "version": "1.0.0",
+  "description": "Everybody Codes solutions in JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leyanlo/everybody-codes.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "everybody.codes"
+  ],
+  "author": "Leyan Lo <leyanlo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leyanlo/everybody-codes/issues"
+  },
+  "homepage": "https://github.com/leyanlo/everybody-codes#readme"
+}
