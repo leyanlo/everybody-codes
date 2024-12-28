@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leyanlo/everybody-codes/issues"
   },
-  "homepage": "https://github.com/leyanlo/everybody-codes#readme"
+  "homepage": "https://github.com/leyanlo/everybody-codes#readme",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
